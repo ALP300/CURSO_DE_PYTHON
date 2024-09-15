@@ -2,6 +2,7 @@
 #STRING 
 
 #PARA COMENTAR MÁS DE UNA LÍNEA USAMOS: """HOLA"""
+"""
 mensaje= "Hola a todos"
 nombre= input("Por favor, ingresa tu nombre: ")
 correo= input("Por favor, ingresa tu correo: ")
@@ -30,6 +31,24 @@ print(es_verdadero)
 print(es_falso)
 
 #CHAR / OJO - EN PYTHON NO EXISTE
-mensaje='a'
+mensaje='a' """
 
 
+#OPERADORES ARITMÉTICOS
+
+#MULTIPLICACIÓN
+numero1= float(input("Ingresa un número 1: "))  
+numero2= float(input("Ingresa un número 2: "))
+mult= numero1*numero2
+print(mult)
+
+#DIVISIÓN
+division= numero1/numero2
+print(division)
+
+#RESIDUO O MÓDULO
+modulo= numero1%numero2
+print(modulo)
+
+division_entera= numero1//numero2
+print(division_entera)
