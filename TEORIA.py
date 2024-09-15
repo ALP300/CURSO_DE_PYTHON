@@ -1,5 +1,7 @@
 #VARIABLES
 #STRING 
+
+#PARA COMENTAR MÁS DE UNA LÍNEA USAMOS: """HOLA"""
 mensaje= "Hola a todos"
 nombre= input("Por favor, ingresa tu nombre: ")
 correo= input("Por favor, ingresa tu correo: ")
@@ -20,3 +22,14 @@ numero2= float(input("Ingresa un número 2: "))
 suma2= numero1+numero2
 print("La suma es: ",suma2)
 print("El valor de pi es: ", pi)
+
+#BOOLEANOS
+es_verdadero=True
+es_falso= False
+print(es_verdadero)
+print(es_falso)
+
+#CHAR / OJO - EN PYTHON NO EXISTE
+mensaje='a'
+
+
