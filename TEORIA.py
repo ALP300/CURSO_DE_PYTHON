@@ -40,8 +40,11 @@ mensaje='a' """
 numero1= float(input("Ingresa un número 1: "))  
 numero2= float(input("Ingresa un número 2: "))
 mult= numero1*numero2
-print(mult)
+print("La multiplicación es: "+ str(mult))
+print("La multipliación es: ", mult)
+print(f"Multiplicacion: {mult}")
 
+"""
 #DIVISIÓN
 division= numero1/numero2
 print(division)
@@ -51,4 +54,4 @@ modulo= numero1%numero2
 print(modulo)
 
 division_entera= numero1//numero2
-print(division_entera)
+print(division_entera)"""
