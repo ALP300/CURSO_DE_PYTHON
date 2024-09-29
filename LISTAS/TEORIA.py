@@ -1,4 +1,4 @@
-#LISTAS
+#LISTAS - MUTABLES
 numeros=[1,2,3,4,5]
 mi_lista= [1,"Hola",3.1,True]
 print(numeros[0])
