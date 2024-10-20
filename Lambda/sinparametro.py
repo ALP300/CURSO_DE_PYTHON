@@ -1,0 +1,1 @@
+saludar= lambda: print("Hola")
